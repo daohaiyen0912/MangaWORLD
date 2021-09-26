@@ -5,11 +5,13 @@ body {
     /* Rectangle 1 */
     position: absolute;
     
-    float: left;
+    top: 0px;
+    left: 0px;
     width: 100%;
     height: 162px;
 
     background-color: #FFD9D9;
+    background-clip: padding-box;
     box-shadow: 0px 4px 15px 8px rgba(0, 0, 0, 0.25);
 }
 /*Logo*/
@@ -102,10 +104,11 @@ body {
 /*BANNER*/
 .banner {
     position: absolute;
-    margin-top: 160px;
+    left: 0px;
+    top:160px;
     width: 100%;
     height: 503px;
-    
+    background-clip: padding-box;
 }
 .smallbanner {
     position: absolute;
@@ -196,7 +199,7 @@ body {
 
     color: rgba(196, 196, 196, 0.6);
 }
-ul>a:hover {
+.dot1:hover, .dot2:hover, .dot3:hover, .dot4:hover, .dot5:hover, .dot6:hover, .dot7:hover{
     position: absolute;
     
     font-size: 122px;
@@ -204,7 +207,7 @@ ul>a:hover {
     top: 69%;
     
 }
-ul>a:active {
+.dot1:focus, .dot2:focus, .dot3:focus, .dot4:focus, .dot5:focus, .dot6:focus, .dot7:focus{
     position: absolute;
     
     font-size: 122px;
