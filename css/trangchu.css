@@ -124,4 +124,90 @@ body {
     right: 10%; 
     bottom: 4%;   
 }
+/*thanhdot*/
+.dot1 {
+    position: absolute;
+    text-decoration: none;
+    font-size: 120px;
+    left: 24.01%;
+    right: 75.05%;
+    top: 69%;
+    
+        
+    color: rgba(196, 196, 196, 0.6);
+}
+.dot2 {
+    position: absolute;
+    text-decoration: none;
+    font-size: 120px;
+    left: 25.52%;
+    right: 73.39%;
+    top: 69%;
+      
+    color: rgba(196, 196, 196, 0.6);
+}
+.dot3 {
+    position: absolute;
+    text-decoration: none;
+    font-size: 120px;
+    left: 27.24%;
+    right: 71.82%;
+    top: 69%;
 
+    color: rgba(196, 196, 196, 0.6);
+}
+.dot4 {
+    position: absolute;
+    text-decoration: none;
+    font-size: 120px;
+    left: 28.85%;
+    right: 70.21%;
+    top: 69%;  
+
+    color: rgba(196, 196, 196, 0.6);
+}
+.dot5 {
+    position: absolute;
+    text-decoration: none;
+    font-size: 120px;
+    left: 30.47%;
+    right: 68.59%;
+    top: 69%;  
+
+    color: rgba(196, 196, 196, 0.6);
+}
+.dot6 {
+    position: absolute;
+    text-decoration: none;
+    font-size: 120px;
+    left: 32.08%;
+    right: 66.98%;
+    top: 69%;
+
+    color: rgba(196, 196, 196, 0.6);
+}
+.dot7 {
+    position: absolute;
+    text-decoration: none;
+    font-size: 120px;
+    left: 33.7%;
+    right: 65.36%;
+    top: 69%;
+
+    color: rgba(196, 196, 196, 0.6);
+}
+ul>a:hover {
+    position: absolute;
+    
+    font-size: 122px;
+    color: #ED4848;
+    top: 69%;
+    
+}
+ul>a:active {
+    position: absolute;
+    
+    font-size: 122px;
+    color: #ED4848;
+    top: 69%;
+}
